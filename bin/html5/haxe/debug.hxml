@@ -1,0 +1,14 @@
+-main ApplicationMain 
+-lib openfl
+-lib openfl-bitfive
+-cp src
+-D tools=1.3.2
+-D bitfive
+-D html5
+-D web
+-js bin/html5/bin/BroEngine.js
+-cp bin/html5/haxe
+-D html5
+-D html
+--remap flash:flash
+-debug
