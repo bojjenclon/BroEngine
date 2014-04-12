@@ -1,6 +1,7 @@
 package com.brofist.games;
 
 /*import flash.display.Sprite;
+import com.brofist.games.AnimationData.Frame;
 import flash.events.Event;
 import flash.Lib;*/
 
