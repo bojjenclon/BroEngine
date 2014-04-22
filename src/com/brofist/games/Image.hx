@@ -1,5 +1,6 @@
 package com.brofist.games;
 
+import hxcollision.shapes.Polygon;
 import openfl.Assets;
 
 /**
@@ -13,5 +14,7 @@ class Image extends Entity
         super();
         
         m_bitmapData = Assets.getBitmapData(p_file);
+        
+        updateCollision();
     }
 }

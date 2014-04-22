@@ -39,6 +39,8 @@ class Animation extends SpriteSheet
         }
         
         m_timer = 0;
+        
+        updateCollision();
     }
     
     public function addAnimation(p_animation:AnimationData):Void

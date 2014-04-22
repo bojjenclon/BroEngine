@@ -41,6 +41,8 @@ class SpriteSheet extends Entity
         
         m_bitmapData = new BitmapData(m_frameWidth, m_frameHeight);
         m_bitmapData.copyPixels(m_fullImage, m_frameRect, new Point(0, 0));
+        
+        updateCollision();
     }
     
     private function get_row():Int
