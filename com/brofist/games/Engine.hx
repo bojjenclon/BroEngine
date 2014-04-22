@@ -110,7 +110,9 @@ class Engine
         for (l_entity in m_entities)
         {
             l_entity.render(l_bufferBitmapData);
+            #if COLLISION
             l_entity.drawCollision(m_shapeDrawer);
+            #endif
         }
     }
     
