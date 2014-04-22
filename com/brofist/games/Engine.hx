@@ -112,7 +112,7 @@ class Engine
             l_entity.render(l_bufferBitmapData);
             #if COLLISION
             l_entity.drawCollision(m_shapeDrawer);
-            #endif
+            #end
         }
     }
     
